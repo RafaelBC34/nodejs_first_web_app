@@ -12,14 +12,54 @@
     <%- include('partials/navigation') %>
 
     <!-- Main Content -->
-    <header class="container vh-100 d-flex justify-content-center align-items-center">
+    <section class="container vh-100 d-flex flex-column my-5">
+        <h2 class="text-center mb-4">Web App Content</h2>
+        
+        <div class="main rounded row p-5 my-5">
+            <a href="/about" class="text-white text-decoration-none d-flex">
+                <span class="me-4">
+                    <i class="bi bi-info-circle" style="font-size: 1.5rem;"></i>
+                </span>
+                <h3>Some information about me and my web resume</h3>
+            </a>
+        </div>
+        <div class="main rounded row p-5 my-5">
+            <a href="" class="text-white text-decoration-none d-flex">
+                <span class="me-4">
+                    <i class="bi bi-patch-question" style="font-size: 1.5rem;"></i>
+                </span>
+                <h3>NodeJs MySQL REST API Web Client</h3>
+            </a>
+        </div>
+        <div class="main rounded row p-5 my-5">
+            <a href="" class="text-white text-decoration-none d-flex">
+                <span class="me-4">
+                    <i class="bi bi-patch-question" style="font-size: 1.5rem;"></i>
+                </span>
+                <h3>NodeJs MongoDB REST API Web Client</h3>
+            </a>
+        </div>
+        <div class="main rounded row p-5 my-5">
+            <a href="/contact" class="text-white text-decoration-none d-flex">
+                <span class="me-4">
+                    <i class="bi bi-envelope" style="font-size: 1.5rem;"></i>
+                </span>
+                <h3>Also contact me</h3>
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- <header class="container vh-100 d-flex justify-content-center align-items-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <img src="/img/fazt.png" alt="logo fazt" class="w-25">
             <h1 class="display-1 my-5 text-uppercase fw-bold">Fazt</h1>
             <a href="/about" class="btn btn-primary w-25">About</a>
         </div>
-    </header>
+    </header> -->
 
     <%- include('partials/footer') %>
+
 </body>
 </html>

@@ -3,18 +3,19 @@ import { Router } from 'express'
 const router = Router()
 
 router.get('/', (req, res) => {
-    // res.send("<h1>Hello world!</h1>")
-    res.render('index', {title: "First Website with NodeJs"})
+    res.render('index', {title: "Rafael BC NodeJs Website"})
 })
 
 router.get('/about', (req, res) => {
-    // res.send("<h1>Hello world!</h1>")
     res.render('about', {title: "About me"})
 })
 
 router.get('/contact', (req, res) => {
-    // res.send("<h1>Hello world!</h1>")
     res.render('contact', {title: "Contact me"})
 })
+
+// router.get('/mysqlapiclient', (req, res) => {
+//     res.render('mysqlapiwebclient', {title: "NodeJs MySQL REST API Web Client"})
+// })
 
 export default router
