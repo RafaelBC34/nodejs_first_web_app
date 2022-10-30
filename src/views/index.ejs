@@ -12,41 +12,51 @@
     <%- include('partials/navigation') %>
 
     <!-- Main Content -->
-    <section class="container vh-100 d-flex flex-column my-5">
-        <h2 class="text-warning text-center mb-4">Web App Content</h2>
+    <section class="container vh-100">
+        <div class="row align-items-center h-100 px-5">
+            <div class="row d-flex flex-column">
+
+                <h2 class="col text-warning text-center mb-5">Web App Content</h2>
         
-        <div class="main rounded row p-5 my-5">
-            <a href="/about" class="text-white text-decoration-none d-flex">
-                <span class="me-4">
-                    <i class="bi bi-info-circle" style="font-size: 1.5rem;"></i>
-                </span>
-                <h3>My web resume with some information about me</h3>
-            </a>
+                <div class="col main rounded row p-3 mt-5">
+                    <a href="/about" class="text-white text-decoration-none d-flex">
+                        <span class="me-4">
+                        <i class="bi bi-info-circle" style="font-size: 1.5rem;"></i>
+                        </span>
+                        <h3>My web resume with some information about me</h3>
+                    </a>
+                </div>
+                <div class="col main rounded row p-3 mt-5">
+                    <a href="https://rafaelbc34.github.io/" class="text-white text-decoration-none d-flex" target="_blank">
+                        <span class="me-4">
+                            <i class="bi bi-patch-question" style="font-size: 1.5rem;"></i>
+                        </span>
+                        <h3>My Portfolio website</h3>
+                    </a>
+                </div>
+                <div class="col main rounded row p-3 mt-5">
+                    <a href="https://rafaelbc34.github.io/Employees-MySQL-API_Web-Client/" class="text-white text-decoration-none d-flex" target="_blank">
+                        <span class="me-4">
+                            <i class="bi bi-patch-question" style="font-size: 1.5rem;"></i>
+                        </span>
+                        <h3>NodeJs MySQL REST API Web Client</h3>
+                    </a>
+                </div>
+                <div class="col main rounded row p-3 mt-5">
+                    <a href="/contact" class="text-white text-decoration-none d-flex">
+                        <span class="me-4">
+                            <i class="bi bi-envelope" style="font-size: 1.5rem;"></i>
+                        </span>
+                        <h3>Also contact me</h3>
+                    </a>
+                </div>
+
+            </div>
+            
+            
+
         </div>
-        <div class="main rounded row p-5 my-5">
-            <a href="https://rafaelbc34.github.io/" class="text-white text-decoration-none d-flex" target="_blank">
-                <span class="me-4">
-                    <i class="bi bi-patch-question" style="font-size: 1.5rem;"></i>
-                </span>
-                <h3>My Portfolio website</h3>
-            </a>
-        </div>
-        <div class="main rounded row p-5 my-5">
-            <a href="https://rafaelbc34.github.io/Employees-MySQL-API_Web-Client/" class="text-white text-decoration-none d-flex" target="_blank">
-                <span class="me-4">
-                    <i class="bi bi-patch-question" style="font-size: 1.5rem;"></i>
-                </span>
-                <h3>NodeJs MySQL REST API Web Client</h3>
-            </a>
-        </div>
-        <div class="main rounded row p-5 my-5">
-            <a href="/contact" class="text-white text-decoration-none d-flex">
-                <span class="me-4">
-                    <i class="bi bi-envelope" style="font-size: 1.5rem;"></i>
-                </span>
-                <h3>Also contact me</h3>
-            </a>
-        </div>
+        
     </section>
 
     <%- include('partials/footer') %>
